@@ -1,8 +1,12 @@
 
-document.getElementById('body').onclick = partyPurple
+document.getElementById('comedy').onclick = partyPurple
 
 
 
 function partyPurple() {
-    document.querySelector('body').style.backgroundColor ="";
+    document.querySelector('body').style.backgroundColor ="red";
+}
+
+function watchComedy() {
+    document.querySelector
 }
