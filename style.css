@@ -67,6 +67,7 @@
     margin: 25px 5px;
 }
 
-#comedies {
+#comedies, #dramas, #actions {
     text-align: center;
 }
+
