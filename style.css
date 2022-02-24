@@ -25,8 +25,9 @@
     height: 300px;
     margin: 0 auto;
   }
+
   ul{
-    width: 500px;
+    width: 570px;
     height: 100px;
     border: 3px solid black;
     margin: 0 auto;
@@ -37,7 +38,11 @@
     width: 94px;
     height: 94px;
     text-align: center;
-    padding: 35px 35px
+    float: left;
+    padding: 30px 5px;
+    border: solid;
+    border-width: thin;
+    
   }
 
  
