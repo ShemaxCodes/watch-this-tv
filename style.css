@@ -36,28 +36,18 @@
   li{
     width: 94px;
     height: 94px;
+    text-align: center;
+    padding: 35px 35px
   }
 
-  ul#list-options {
-    width: 600px;
-    height: 300px;
-    border: 3px solid black;
-    margin: 0 auto;
-    list-style: none;
-    padding: 0;
-  }
-
+ 
   #comedy {
     background: rgba(241,63,247,1);
   }
 
+  
   .genre {
       width: 94px;
       height: 94px;
   }
 
-  img.options {
-    display: inline-block;
-    height: 200px;
-    margin: 0 auto;
-  }
