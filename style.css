@@ -56,3 +56,17 @@
       height: 94px;
   }
 
+.hidden {
+    display: none;
+}
+
+.size-image {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 25px 5px;
+}
+
+#comedies {
+    text-align: center;
+}
