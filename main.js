@@ -1,12 +1,16 @@
 
-document.getElementById('comedy').onclick = partyPurple
+document.getElementById('comedy').addEventListener('click', hide)
+document.getElementById('comedy').addEventListener('click', watchComedy)
 
-
-
-function partyPurple() {
-    document.querySelector('body').style.backgroundColor ="red";
-}
 
 function watchComedy() {
-    document.querySelector
+    document.querySelector('body').style.backgroundColor ="red";
+
+    document.querySelector('#placeToSee')
+
+
+}
+
+function hide() {
+    document.querySelector('#dramas').style.display = 'none'
 }
