@@ -68,3 +68,25 @@
     text-align: center;
 }
 
+
+#comedies, #dramas, #actions, #suspensed, #scifis, #documentaries {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    45% {
+      margin-left: 25%;
+      width: 150%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
