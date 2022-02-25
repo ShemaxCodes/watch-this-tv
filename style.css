@@ -10,7 +10,7 @@
   body {
 
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 26%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,105,1) 39%, rgba(0,212,255,1) 100%);
      /* background-image: url('images/bg.png');
       background-repeat: no-repeat;
       background-size: cover;
@@ -25,6 +25,7 @@
     display: block;
     height: 300px;
     margin: 0 auto;
+    border-radius: 20px;
   }
 
   ul{
@@ -91,3 +92,7 @@
       width: 100%;
     }
   }
+
+  @media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%;
